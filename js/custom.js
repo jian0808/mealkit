@@ -1,8 +1,10 @@
 $(function(){
     // Include html files
-    $('.gnb-include').load('/include/gnb.html');
-    $('.main-header-include').load('/include/main_header.html');
-    $('.goods-detail-header-include').load('/include/goods_detail_header.html');
+    // $('.gnb-include').load('/include/gnb.html');
+    // $('.main-header-include').load('/include/main_header.html');
+    // $('.goods-detail-header-include').load('/include/goods_detail_header.html');
+    
+    includeHTML();
 
     // Category Accordian
     $('.category-accordian .detail').eq(0).show();

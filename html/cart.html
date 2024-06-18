@@ -9,12 +9,15 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <!-- custom JS -->
     <script src="/js/custom.js"></script>
+    <!-- Include JS -->
+    <script src="/js/include.js"></script>
 </head>
 <body>
     <div class="container cart">
         <div class="cart-inner">
             <!-- Main Header Include -->
-            <div class="main-header-include"></div>
+            <!-- <div class="main-header-include"></div> -->
+            <div include-html="../include/main_header.html"></div>
             <!-- //Main Header Include -->
             <div class="cart-content">
                 <div class="cart-items-header">
@@ -117,7 +120,8 @@
                 </ul>
             </div>
             <!-- GNB Include -->
-            <div class="gnb-include"></div>
+            <!-- <div class="gnb-include"></div> -->
+            <div include-html="../include/gnb.html"></div>
             <!-- //GNB Include -->
         </div>
     </div>
